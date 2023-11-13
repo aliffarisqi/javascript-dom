@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    font-family:monospace;
+    font-size: 20px;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+.card{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 80px;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    
+}
+.card a{
+    text-decoration: none;
+} 
+img{
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.card img{
+    float: left;
+    position: relative; 
+}
+.card .telp, .card .nama{
+    display: block;
+    line-height: 5px;
+    margin-top: 30px;
+ 
+}
+.close{
+    line-height: 2px;
+    position: relative;
+    float: right;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+.close:hover{
+    color: rgb(1, 131, 245);
+    cursor: pointer;
+}
+.nama{
+    font-weight: bold;
+    font-size: 25px;
+}
